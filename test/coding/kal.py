@@ -6,8 +6,6 @@ from colorama import Fore, Back, Style
 # use Colorama to make Termcolor work on Windows too
 init()
 
-print( Fore.RED )
-print( Back.YELLOW )
 
 what = input( "Что надо сделать?  (+, - ): " )
 
@@ -31,8 +29,6 @@ else:
     
 input() 
 
-с = 1
-с +=1
-print(c)
+
 
     
